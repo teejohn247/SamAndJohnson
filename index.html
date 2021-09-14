@@ -24,8 +24,19 @@
     
     <h3>Hello World, we are software developers!  </h3>
     <h1 id="title">microverse projects phase</h1>
-    <p id="description">this is sam and johnson collaborating on this projetc</p>
-    <form action="" id="survey-form"></form>
+    <p id="description">This is sam and johnson collaborating on this projetc</p>
+    <form action="" id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name here" required/>
+      </div>
+
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input id="email" name="email" type="text" min="12" max="80"placeholder="enter your email here" required>
+      </div>
+    
+    </form>
     <script  src="js/index.js"></script>
   </body>
 </html>
