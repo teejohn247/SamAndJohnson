@@ -33,13 +33,40 @@
 
       <div class="form-group">
         <label id="email-label" for="email">Email</label>
-        <input id="email" name="email" type="text" min="12" max="80"placeholder="enter your email here" required>
+        <input id="email" name="email" type="email" min="12" max="80"placeholder="enter your email here" required>
       </div>
       <div class="form-group">
         <label id="number-label" for="number">number</label>
         <input type="number" id="number" name="number"
         min="1" max="10" placeholder="enter a number between 1 and 10">
       </div>
+
+
+      <label for="music type">Choose music type:</label>
+      <select id="dropdown" name="music type">
+        <option value="hip hop">hip/hop</option>
+        <option value="trap">trap</option>
+        <option value="rap">rap</option>
+        <option value="jazz">jazz</option>
+      </select>
+    <label for="football"> 
+      <input id="football" value="football" type="radio" name="sport">football
+    </label>
+    
+        <label for="volleyball"> 
+      <input id="volleyball" value="volleyball" type="radio" name="sport">volleyball 
+    </label>
+        <label for="employed"> 
+      <input id="employed" value="employed" type="checkbox" name="employed">employed 
+    </label>
+        <label for="unemployed"> 
+      <input id="unemployed" value="unemployed" type="checkbox" name="unemployed">unemployed
+    
+        <br>
+        <textarea id="comment" name="comment" placeholder=" enter your comments"></textarea>
+        <input id="submit" type="submit">
+
+
 
     </form>
     <script  src="js/index.js"></script>
